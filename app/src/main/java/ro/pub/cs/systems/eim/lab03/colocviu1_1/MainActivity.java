@@ -74,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
         if (savedInstanceState != null) {
             if (savedInstanceState.containsKey("count")) {
                 points.setText(savedInstanceState.getString("count"));
+                noPoints = Integer.parseInt(savedInstanceState.getString("count"));
             } else {
                 points.setText(String.valueOf(0));
             }
@@ -92,6 +93,7 @@ public class MainActivity extends AppCompatActivity {
     public void onRestoreInstanceState(Bundle savedInstanceState) {
         if (savedInstanceState.containsKey("count")) {
             points.setText(savedInstanceState.getString("count"));
+            noPoints = Integer.parseInt(savedInstanceState.getString("count"));
         } else {
             points.setText(String.valueOf(0));
         }
