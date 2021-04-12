@@ -10,7 +10,7 @@ tools:context=".MainActivity">
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="ro.pub.cs.systems.eim.lab03.phonedialer.view.PhoneDialerActivity">
+    tools:context="ro.pub.cs.systems.eim.lab03.colocviu1_1.view.MainActivity">
 
 
 

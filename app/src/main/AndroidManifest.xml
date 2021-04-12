@@ -16,6 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".SecondaryActivity">
+            <intent-filter>
+                <action android:name="ro.pub.cs.systems.eim.lab03.colocviu1_1.intent.action.SecondaryActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
